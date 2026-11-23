@@ -3,7 +3,7 @@ kind: Kustomization
 namespace: craft
 resources:
 - k8s/craft.yaml
-- k8s/oauth2-proxy.yaml
+- k8s/edge-sso.yaml
 configMapGenerator:
 - name: craft-site
   files:
